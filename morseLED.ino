@@ -182,6 +182,14 @@ void Z(){
     dot(2);
 }
 
+void exclamation(){
+    dash(1);
+    dot(1);
+    dash(1);
+    dot(1);
+    dash(2);
+}
+
 /*Input a message!*/
 void loop(){
 
@@ -196,4 +204,5 @@ void loop(){
     R();
     L();
     D();
+    exclamation();
 }
